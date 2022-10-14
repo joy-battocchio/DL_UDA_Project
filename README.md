@@ -30,3 +30,13 @@ We then improved its performance by adding a **global shift loss** and stibilizi
 Dataset:
 
 In this assignment we train and evaluate our model on a subset of the *Adaptiope* object recognition dataset, using two of its domain (*real world* and *product*) and only 20 out of the 123 classes.
+
+
+## What is in the repo
+- DSAN notebook (official delivery for the project)
+- Adversarial feature notebook (not working)
+
+## How to run DSAN notebook
+- Download [Adaptiope dataset](https://drive.google.com/file/d/1FmdsvetC0oVyrFJ9ER7fcN-cXPOWx2gq/view)
+- Add the zip at your Google Drive, path: gdrive/My Drive/datasets/Adaptiope.zip
+- Run cells in order
