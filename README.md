@@ -5,13 +5,12 @@ Unsupervised domain adaptation solution for deep learning course UNITN AY 2021/2
 ### Deep subdomain adaptation network
 #### Battocchio Joy, Guidolin Davide
 
-
-
 Deep learning course, AA 2021/2022
 
 Prof. Elisa Ricci
 
-Unsupervised Domain Adaptation:
+
+**Unsupervised Domain Adaptation**
 
 It is often the case that after the training phase of a model, its real usage happen in a different domain (target domain) with respect to the one in which it has been trained (source domain).
 This may cause a significant drop in the performance of the model.
@@ -27,9 +26,10 @@ We implemented the loss as described in the paper, but decided to make some chan
 
 We then improved its performance by adding a **global shift loss** and stibilizing the training through a simple **self-supervised loss**.
 
-Dataset:
 
-In this assignment we train and evaluate our model on a subset of the *Adaptiope* object recognition dataset, using two of its domain (*real world* and *product*) and only 20 out of the 123 classes.
+**Dataset**
+
+In this assignment we train and evaluate our model on a subset of the [*Adaptiope*](https://openaccess.thecvf.com/content/WACV2021/papers/Ringwald_Adaptiope_A_Modern_Benchmark_for_Unsupervised_Domain_Adaptation_WACV_2021_paper.pdf) object recognition dataset, using two of its domain (*real world* and *product*) and only 20 out of the 123 classes.
 
 
 ## What is in the repo
